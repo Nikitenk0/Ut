@@ -12,7 +12,7 @@ p {
 	margin-top: 50px;
   }
   
-.button {
+button {
 	border: none;
 	transition-duration: 2s;
 	cursor: pointer;
@@ -20,27 +20,27 @@ p {
 	margin-bottom:0%;
 	margin-left:10%;
 }  
+/*
 .button1 {	
 	color: white;
 	background-color: black;
 	margin-bottom:0%;
 	margin-left:10%;
 	}
-/*
 .button1:hover {
 	background-color: black;
 	color: red;
 	margin-bottom:0%;
 	margin-left:10%;
 }
-*/
+
 .button2 {
 	color: white;
 	background-color: black;
 	margin-bottom:0%;
 	margin-left:10%;
 	}
-/*
+
 .button2:hover {
 	background-color: black;
 	color: red;
