@@ -1,0 +1,50 @@
+ body {
+	 background-color: black;
+ }
+h1   {
+	color: white;}
+
+p {
+	color: white;
+	text-indent: 5em;
+	font-family: courier new;
+	margin-left: 200px;
+	margin-top: 50px;
+  }
+  
+.button {
+	border: none;
+	transition-duration: 2s;
+	cursor: pointer;
+	position:relative;
+	margin-bottom:0%;
+	margin-left:10%;
+}  
+.button1 {	
+	color: white;
+	background-color: black;
+	margin-bottom:0%;
+	margin-left:10%;
+	}
+/*
+.button1:hover {
+	background-color: black;
+	color: red;
+	margin-bottom:0%;
+	margin-left:10%;
+}
+*/
+.button2 {
+	color: white;
+	background-color: black;
+	margin-bottom:0%;
+	margin-left:10%;
+	}
+/*
+.button2:hover {
+	background-color: black;
+	color: red;
+	margin-bottom:0%;
+	margin-left:10%;
+}
+*/
