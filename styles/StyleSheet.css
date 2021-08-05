@@ -4,6 +4,8 @@
 h1   {
 	color: white;}
 
+
+
 p {
 	color: white;
 	text-indent: 5em;
@@ -11,14 +13,35 @@ p {
 	margin-left: 200px;
 	margin-top: 50px;
   }
-  
-button {
-	border: none;
-	transition-duration: 2s;
+.fixedButton{
+	position: fixed;
+    bottom: 0px;
+    right: 0px; 
+    padding: 20px;
+    }
+.roundedFixedBtn{
+	height: 60px;
+	line-height: 80px;  
+	width: 60px;  
+	font-size: 2em;
+	font-weight: bold;
+	border-radius: 50%;
+	background-color: black;
+	color: white;
+	text-align: center;
 	cursor: pointer;
-	position:relative;
-	margin-bottom:0%;
-	margin-left:10%;
+}
+		
+button {
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	padding: 20px;
+	border: none;
+	color:white;
+	background-color:black;
+	text-align: center;
+	cursor: pointer;
 }  
 /*
 .button1 {	
@@ -27,6 +50,7 @@ button {
 	margin-bottom:0%;
 	margin-left:10%;
 	}
+/*
 .button1:hover {
 	background-color: black;
 	color: red;
